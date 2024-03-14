@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yandex-query-client"
+version = "0.1.0"
+authors = [
+  { email="cloud@support.yandex.ru" },
+]
+description = "The Yandex Query official HTTP client"
+readme = "README.md"
+license="MIT"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "logging",
+  "requests>=2.31.0",
+  "responses",
+  "pandas>=2.2.0",
+  "python-dateutil>=2.8.2",
+  "typing>=3.7.4.3",
+  "urllib3>=1.26.5",
+]
+[project.optional-dependencies]
+test = [
+    "Werkzeug>=3.0.1",
+    "pytest>=7.4.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/yandex-cloud/yandex-query-client"
+Issues = "https://github.com/yandex-cloud/yandex-query-client/issues"
