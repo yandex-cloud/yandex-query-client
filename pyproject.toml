@@ -28,10 +28,12 @@ dependencies = [
 [project.optional-dependencies]
 test = [
     "pytest>=7.4.4",
-    "flake8",
+    "ruff==0.3.3",
+    "mypy",
     "responses>=0.23.1",
 ]
 
 [project.urls]
 Homepage = "https://github.com/yandex-cloud/yandex-query-client"
 Issues = "https://github.com/yandex-cloud/yandex-query-client/issues"
+
