@@ -18,9 +18,8 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-  "logging",
+  "logging>=0.4.9.6",
   "requests>=2.31.0",
-  "responses",
   "pandas>=2.2.0",
   "python-dateutil>=2.8.2",
   "typing>=3.7.4.3",
@@ -28,8 +27,8 @@ dependencies = [
 ]
 [project.optional-dependencies]
 test = [
-    "Werkzeug>=3.0.1",
     "pytest>=7.4.4",
+    "responses>=0.23.1",
 ]
 
 [project.urls]
