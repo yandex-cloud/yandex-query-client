@@ -31,6 +31,8 @@ test = [
     "ruff==0.3.3",
     "mypy",
     "responses>=0.23.1",
+    "types-python-dateutil",
+    "types-requests"
 ]
 
 [project.urls]
