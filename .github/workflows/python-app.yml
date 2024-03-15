@@ -33,7 +33,7 @@ jobs:
         ruff check
     - name: Check typing with mypy
       run: |
-        mypy .
+        mypy --install-types .
     - name: Format code with ruff
       run: |
         ruff format
