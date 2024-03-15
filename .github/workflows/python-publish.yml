@@ -1,4 +1,4 @@
-name: Release Yandex Query HTTP client to PyPI
+name: Release HTTP client to PyPI
 
 on:
   release:
@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install build
+        pip install build twine
     - name: Build package
       run: python -m build
     - name: Publish package to PyPI
