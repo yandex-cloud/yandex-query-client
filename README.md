@@ -2,7 +2,7 @@
 
 Install pip package:
 ```
-%pip install yandex_query_client --upgrade --quiet
+%pip install yandex-query-client --upgrade --quiet
 ```
 
 ### Example: simple select
