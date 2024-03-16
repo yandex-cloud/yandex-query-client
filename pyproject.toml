@@ -11,7 +11,7 @@ authors = [
 description = "The Yandex Query official HTTP client"
 readme = "README.md"
 license="MIT"
-requires-python = ">=3.10"
+requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
