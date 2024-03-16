@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       package-version:
-        description: 'HTTP client package version, e.g. 0.1.0'
+        description: 'HTTP client package version, e.g. 0.1.2'
         required: true
-        default: '0.1.1'
+        default: '0.1.2'
 
 #  push:
 #    branches: [ "main" ]
