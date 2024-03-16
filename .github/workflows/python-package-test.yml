@@ -35,7 +35,7 @@ jobs:
         python -m pip install --upgrade pip
         # install test requirements only without local package
         pip install .[test]
-        pip uninstall yandex-query-client
+        pip uninstall -y yandex-query-client
         # install package from pypi
         pip install "yandex-query-client==${{ github.event.inputs.package-version }}"
     - name: Test with pytest
