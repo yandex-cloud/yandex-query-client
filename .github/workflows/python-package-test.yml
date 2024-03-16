@@ -2,11 +2,11 @@ name: Run tests over package
 
 on:
   workflow_dispatch:
-  inputs:
-    package-version:
-      description: 'HTTP client package version, e.g. 0.1.0'
-      required: true
-      default: '0.1.0'
+    inputs:
+      package-version:
+        description: 'HTTP client package version, e.g. 0.1.0'
+        required: true
+        default: '0.1.0'
 
 #  push:
 #    branches: [ "main" ]
