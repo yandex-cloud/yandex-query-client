@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "yandex-query-client"
-version = "0.1.3"
+version = "0.1.4"
 authors = [
   { email="cloud@support.yandex.ru" },
 ]
@@ -21,7 +21,6 @@ dependencies = [
   "pandas>=1.2.5",
   "python-dateutil>=2.8.2",
   "requests>=2.31.0",
-  "typing>=3.7.4.3",
   "urllib3>=1.26.5",
 ]
 [project.optional-dependencies]
