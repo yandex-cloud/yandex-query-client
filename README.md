@@ -8,6 +8,8 @@ Install pip package:
 ### Example: simple select
 
 ```
+from yandex_query_client import YQHttpClient, YQHttpClientConfig
+
 # IAM token to access YandexQuery service
 IAM_TOKEN="...."
 
